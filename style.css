@@ -531,6 +531,9 @@ section.skills .fourth,
 section.skills .bottom {
     display: none;
   }
+  section.skills .mobile-skills {
+    display: block;
+  }
   section.skills .mobile-skills .skills {
     margin: 0 2rem;
     display: grid;
