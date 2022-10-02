@@ -275,10 +275,10 @@ section {
 			display: flex;
 			align-items: center;
 			justify-content: space-evenly;
-			img:nth-child(2){
-				filter: grayscale(100%);
-				cursor: not-allowed;
-			}
+			// img:nth-child(2){
+			// 	filter: grayscale(100%);
+			// 	cursor: not-allowed;
+			// }
 		}
 		.fourth {
 			display: grid;
@@ -534,6 +534,7 @@ footer{
 			font-size: 2rem;
 		}
 	}
+	
 	section{
 		&.aboutme{
 			.boxes{
