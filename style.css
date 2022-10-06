@@ -572,7 +572,6 @@ section.skills .bottom {
   }
   section.contactme .contact .left,
 section.contactme .contact .main {
-    width: 350px;
-    margin: 0 1rem;
+    margin: 0 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
