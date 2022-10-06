@@ -478,6 +478,9 @@ footer p {
   color: #fff;
 }
 
+.go-top {
+  background-color: #000;
+}
 .go-top i {
   background-color: #fff;
   padding: 1rem;
