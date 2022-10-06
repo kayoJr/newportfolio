@@ -555,7 +555,6 @@ footer{
 	
 	section{
 		&.aboutme{
-			display: none;
 			.boxes{
 				grid-template-columns: 1fr;
 				margin: 0 2rem;
@@ -579,7 +578,6 @@ footer{
 			}
 			.mobile-skills{
 				display: block;
-				display: none;
 				.skills{
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
@@ -594,7 +592,6 @@ footer{
 			}
 		}
 		&.myworks{
-			display: none;
 			.works{
 				.boxes{
 					grid-template-columns: 1fr;
@@ -602,7 +599,6 @@ footer{
 			}
 		}
 		&.services{
-			display: none;
 			.service{
 				.boxes{
 					grid-template-columns: 1fr;
@@ -613,12 +609,12 @@ footer{
 			}
 		}
 		&.contactme{
-			display: none;
 			.contact{
 				grid-template-columns: 1fr;
 				.left,
 				.main{
-					margin: 0 2rem;
+					width: 350px;
+					margin: 0 1rem;
 				}
 			}
 		}
