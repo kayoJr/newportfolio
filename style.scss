@@ -496,6 +496,15 @@ footer{
 		color: #fff;
 	}
 }
+.go-top{
+	background-color: #fff;
+	color: #000;
+	border-radius: 50%;
+	padding: 1rem;
+	position: fixed;
+	bottom: 2rem;
+	right: 1rem;
+}
 @media (max-width: 1400px) {
 	body{
 		overflow-x: hidden !important;
