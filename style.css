@@ -567,6 +567,9 @@ section.skills .bottom {
   section.services .service .boxes .box {
     margin: 0 2rem;
   }
+  section.contactme {
+    display: none;
+  }
   section.contactme .contact {
     grid-template-columns: 1fr;
   }

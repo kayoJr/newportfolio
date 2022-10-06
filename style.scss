@@ -609,6 +609,7 @@ footer{
 			}
 		}
 		&.contactme{
+			display: none;
 			.contact{
 				grid-template-columns: 1fr;
 				.left,
