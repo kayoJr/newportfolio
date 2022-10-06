@@ -530,6 +530,9 @@ footer p {
   .title h1 {
     font-size: 2rem;
   }
+  section.aboutme {
+    display: none;
+  }
   section.aboutme .boxes {
     grid-template-columns: 1fr;
     margin: 0 2rem;
@@ -546,6 +549,7 @@ section.skills .bottom {
   }
   section.skills .mobile-skills {
     display: block;
+    display: none;
   }
   section.skills .mobile-skills .skills {
     display: grid;
@@ -558,8 +562,14 @@ section.skills .bottom {
   section.skills .mobile-skills .skills img:last-child {
     grid-column: 1/span 2;
   }
+  section.myworks {
+    display: none;
+  }
   section.myworks .works .boxes {
     grid-template-columns: 1fr;
+  }
+  section.services {
+    display: none;
   }
   section.services .service .boxes {
     grid-template-columns: 1fr;
