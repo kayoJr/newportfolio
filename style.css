@@ -486,7 +486,7 @@ footer p {
   .content {
     display: grid;
     place-content: center;
-    margin: 10% 0;
+    margin-top: 10%;
     overflow-x: hidden;
     width: 100%;
   }
