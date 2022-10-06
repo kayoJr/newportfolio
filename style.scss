@@ -9,6 +9,9 @@
 .mobile-skills{
 	display: none;
 }
+body{
+	background-color: #000;
+}
 a {
 	color: #fff;
 	text-decoration: none;
@@ -538,9 +541,6 @@ footer{
 		h1{
 			font-size: 2rem;
 		}
-	}
-	.content{
-		display: none;
 	}
 	section{
 		&.aboutme{

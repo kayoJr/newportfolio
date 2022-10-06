@@ -11,6 +11,10 @@
   display: none;
 }
 
+body {
+  background-color: #000;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -518,9 +522,6 @@ footer p {
   }
   .title h1 {
     font-size: 2rem;
-  }
-  .content {
-    display: none;
   }
   section.aboutme .boxes {
     grid-template-columns: 1fr;
